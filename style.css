@@ -1,10 +1,5 @@
-body {
-    background-color: rgb(41, 1, 70);
-}
-
-.texto {
-    color:beige;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body{
+    background-color: rgb(131, 55, 202)	;
 }
 
 .navbar {
@@ -12,57 +7,69 @@ body {
     z-index: 1000px;
     top: 0%;
     width: 100%;
-    background-color: rgb(100, 48, 138);
+    background-color: rgb(64, 6, 82);
     overflow: hidden;
+
 }
 
 .navbar a{
     float: left;
     display: block;
-    color: beige;
+    color: rgb(69, 2, 78);
     padding: 14px 20px;
     text-align: center;
     text-decoration: none;
+    font-family:initial;
 }
 
-ul {
+ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.paragrafo{
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
-#home {
+.titulos{
+    color: rgb(219, 232, 248);
+
+}
+
+.subtitulo{
+    color: rgb(117, 130, 146);
+}
+
+
+#home{
     padding-top: 50px;
-
 }
 
-.navbar a:hover {
-    background-color: beige;
+.navbar a:hover{
+    background-color: white;
     color: black;
 }
 
-.card {
+.card{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-
 }
 
-.cards {
-    background-color: beige;
+.cards{
+    background-color: rgb(200, 86, 235);
     text-align: center;
-    border-radius: 5;
+    padding: 20px;
+    flex: 1;
+
 }
 
-.imagem {
-    width: 200px;
-    border-radius: 30%;
-    border-width: 5px;
-    border-color: beige;
+.imagem{
     border-style: solid;
-}
-
-.textocard {
-    color: rgb(41, 1, 70);
+    border-color: white;
+    border-radius: 2px;
 }
